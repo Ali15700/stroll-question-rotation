@@ -1,0 +1,21 @@
+{
+  "name": "stroll-question-rotation-system",
+  "version": "1.0.0",
+  "description": "# Task 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0"
+  }
+}
